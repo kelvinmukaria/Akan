@@ -5,4 +5,25 @@ padding-right: 30px;
 }
 h1{
   text-align: center;
+  text-decoration-color: sienna;
+  font-weight: 600;
 }
+h3{
+  text-align: center;
+  text-decoration-color: sienna;
+}
+.rounded-circle{
+  margin-left: 250px;
+}
+.two{
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+  font-family: system-ui;
+  text-decoration-color: sienna;
+}
+
+ul {
+  background: sienna;
+  padding: 20px;}
+  
