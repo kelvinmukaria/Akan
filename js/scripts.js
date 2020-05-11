@@ -58,4 +58,22 @@ var result = function(){
         }else { 
             document.getElementById("result").innerHTML = "Sunday" + maleNames[6];
     }
-    //this block fetches the element in the index.html and passes it through the if/else statement
+    //this block fetches the element in the index.html and passes it through the if/else statement for malenames
+    break;
+    case "female":
+        if(dayOfTheWeek == 0){
+            document.getElementById("result").innerHTML = "Monday" + femaleNames[0];
+        }else if (day == 1){
+            document.getElementById("result").innerHTML = "Tuesday" + femaleNames[1];
+        }else if (day == 2){ 
+            document.getElementById("result").innerHTML = "Wednesay" + femaleNames[2];
+        }else if (day == 3){ 
+            document.getElementById("result").innerHTML = "Thursday" + femaleNames[3];
+        }else if (day == 4){ 
+            document.getElementById("result").innerHTML = "Friday" + femaleNames[4];
+        }else if (day == 5){ 
+            document.getElementById("result").innerHTML = "Saturday" + femaleNames[5];
+        }else{ 
+            document.getElementById("result").innerHTML = "Sunday" + femaleNames[6];
+        }
+        //for femaleNames variable assigned at beginning of script
