@@ -81,13 +81,18 @@
                 <label for="monthDay" class="labels">Day of month</label>
                 <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
               </div>
-              <form class="radio-button">
-                <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-                <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
-              </form>
-              <br>
-              <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
-              <h1 id="result"></h1>
+              <div class="form-group form-check">
+                <input type="radio" name="one" class="form-check-input" value="" id="gender">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="one" class="form-check-input" value="" id="gender">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <button type="button" name="button" class="btn btn primary mb-2" onclick="result();">Calculate Akan Name</button>
+
+                
+            </div>
       </div>
     </div>
   </div>
