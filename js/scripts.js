@@ -25,6 +25,17 @@ var calculate = function(){
     console.log(dayOfTheWeek);
 }
 
+var checkgender = function() {
+    calculate();
+    var gdr = document.getElementsByName("one"); 
+    if(gdr[0].checked == true){
+        gender = "male";
+    }else if(gdr[1].checked == true ){
+        gender = "female";
+    }
+    else {
+        alert("Input gender");
+    }
 var result = function(){
     dayOfTheWeek = calculate();
     checkgender();
