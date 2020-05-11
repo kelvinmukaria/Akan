@@ -34,9 +34,28 @@ var checkgender = function() {
         gender = "female";
     }
     else {
-        alert("Input gender");
+        alert("Input gender:");
     }
 var result = function(){
     dayOfTheWeek = calculate();
     checkgender();
     }
+// for the if/else statement and since it's long,I'll use a switch statement to execute the code depending on different cases
+  switch(gender){
+        case "male":
+        if(dayOfTheWeek == 0){
+            document.getElementById("result").innerHTML = "Monday" + MaleNames[0];
+        }else if (day == 1){
+            document.getElementById("result").innerHTML = "Tuesday" + maleNames[1];
+        }else if (day == 2){ 
+            document.getElementById("result").innerHTML = "Wednesay" + maleNames[2];
+        }else if (day == 3){ 
+            document.getElementById("result").innerHTML = "Thursday" + maleNames[3];
+        }else if (day == 4){ 
+            document.getElementById("result").innerHTML = "Friday" + maleNames[4];
+        }else if (day == 5){ 
+            document.getElementById("result").innerHTML = "Saturday" + maleNames[5];
+        }else { 
+            document.getElementById("result").innerHTML = "Sunday" + maleNames[6];
+    }
+    //this block fetches the element in the index.html and passes it through the if/else statement
