@@ -12,8 +12,14 @@ h3{
   text-align: center;
   text-decoration-color: sienna;
 }
+h1,h3{
+  text-transform: uppercase;
+}
 .rounded-circle{
-  margin-left: 250px;
+  margin-left: 300px;
+}
+one{
+  font-size: 11px;
 }
 .two{
   font-size: 20px;
@@ -24,6 +30,12 @@ h3{
 }
 
 ul {
-  background: sienna;
-  padding: 20px;}
-  
+  background: rgb(139, 94, 73);
+  padding: 20px;
+  text-align: center;}
+.row{
+  background-color: sienna;
+}
+#column{
+  float: left;
+}
