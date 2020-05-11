@@ -1,11 +1,11 @@
 // first I will list all the variables I will require for the functionality of the Akan Webpage
-var century;
-var year;
-var month;
-var date;
-var dayOfTheWeek;
-var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
-var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+var century ;
+var year ;
+var month ;
+var date ;
+var dayOfTheWeek ;
+var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 //my variable names correspond to the ids I assigned in the form
 
 var day = function(){
@@ -37,7 +37,7 @@ var checkgender = function() {
     else {
         alert("Input gender:");
     }
-var result() = function(){
+var result = function(){
     dayOfTheWeek = calculate();
     checkgender();
     }
@@ -81,4 +81,7 @@ var result() = function(){
         //for femaleNames variable assigned at beginning of script
         break;
     }
-    //break to stop exexuting code if condition is met
+    }
+    
+
+    //break to stop exexuting code if condition is mety 
