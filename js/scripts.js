@@ -77,3 +77,7 @@ var result = function(){
             document.getElementById("result").innerHTML = "Sunday" + femaleNames[6];
         }
         //for femaleNames variable assigned at beginning of script
+        break;
+        default;}
+    }
+    //break to stop exexuting code if condition is met
