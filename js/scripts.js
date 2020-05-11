@@ -23,5 +23,9 @@ var calculate = function(){
     dayOfTheWeek = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
     return(Math.floor(dayOfTheWeek));
     console.log(dayOfTheWeek);
-
 }
+
+var result = function(){
+    dayOfTheWeek = calculate();
+    checkgender();
+    }
