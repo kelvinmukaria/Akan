@@ -24,36 +24,38 @@ var calculate = function(){
     return(Math.floor(dayOfTheWeek));
     console.log(dayOfTheWeek);
 }
+//the expected value should be in a range of 0-6
 
 var checkgender = function() {
     calculate();
-    var gdr = document.getElementsByName("one"); 
-    if(gdr[0].checked == true){
+    var gdr = document.getElementsByName("kevz"); 
+    if(gdr[0].checked === true){
         gender = "male";
-    }else if(gdr[1].checked == true ){
+    }else if(gdr[1].checked === true ){
         gender = "female";
-    }
+    }                         
     else {
         alert("Input gender:");
     }
-var result = function(){
+var result() = function(){
     dayOfTheWeek = calculate();
     checkgender();
     }
+    //var result() is for form validation,allows user input to be processed after the conditions are met
 // for the if/else statement and since it's long,I'll use a switch statement to execute the code depending on different cases
   switch(gender){
         case "male":
-        if(dayOfTheWeek == 0){
-            document.getElementById("result").innerHTML = "Monday" + MaleNames[0];
-        }else if (day == 1){
+        if(dayOfTheWeek === 0){
+            document.getElementById("result").innerHTML = "Monday" + maleNames[0];
+        }else if (day === 1){
             document.getElementById("result").innerHTML = "Tuesday" + maleNames[1];
-        }else if (day == 2){ 
+        }else if (day === 2){ 
             document.getElementById("result").innerHTML = "Wednesay" + maleNames[2];
-        }else if (day == 3){ 
+        }else if (day === 3){ 
             document.getElementById("result").innerHTML = "Thursday" + maleNames[3];
-        }else if (day == 4){ 
+        }else if (day === 4){ 
             document.getElementById("result").innerHTML = "Friday" + maleNames[4];
-        }else if (day == 5){ 
+        }else if (day === 5){ 
             document.getElementById("result").innerHTML = "Saturday" + maleNames[5];
         }else { 
             document.getElementById("result").innerHTML = "Sunday" + maleNames[6];
@@ -61,23 +63,22 @@ var result = function(){
     //this block fetches the element in the index.html and passes it through the if/else statement for malenames
     break;
     case "female":
-        if(dayOfTheWeek == 0){
+        if(dayOfTheWeek === 0){
             document.getElementById("result").innerHTML = "Monday" + femaleNames[0];
-        }else if (day == 1){
+        }else if (day === 1){
             document.getElementById("result").innerHTML = "Tuesday" + femaleNames[1];
-        }else if (day == 2){ 
+        }else if (day === 2){ 
             document.getElementById("result").innerHTML = "Wednesay" + femaleNames[2];
-        }else if (day == 3){ 
+        }else if (day === 3){ 
             document.getElementById("result").innerHTML = "Thursday" + femaleNames[3];
-        }else if (day == 4){ 
+        }else if (day === 4){ 
             document.getElementById("result").innerHTML = "Friday" + femaleNames[4];
-        }else if (day == 5){ 
+        }else if (day === 5){ 
             document.getElementById("result").innerHTML = "Saturday" + femaleNames[5];
         }else{ 
             document.getElementById("result").innerHTML = "Sunday" + femaleNames[6];
         }
         //for femaleNames variable assigned at beginning of script
         break;
-        default;}
     }
     //break to stop exexuting code if condition is met
