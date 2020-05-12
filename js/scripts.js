@@ -1,9 +1,8 @@
 // first I will list all the variables I will require for the functionality of the Akan Webpage
-var century ;
-var year ;
-var month ;
-var date ;
-var dayOfTheWeek ;
+var century = document.getElementById("century").value;
+var year = document.getElementById("year").value;
+var month = document.getElementById("month").value;
+var date = document.getElementById("date").value;
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 //my variable names correspond to the ids I assigned in the form
