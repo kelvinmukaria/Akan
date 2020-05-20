@@ -3,6 +3,10 @@ display: inline;
 padding-left: 30px;;
 padding-right: 30px;
 }
+#theNav{
+  color: white;
+  background-color: transparent;
+}
 h1{
   text-align: center;
   text-decoration-color: sienna;
@@ -30,7 +34,7 @@ one{
 }
 
 ul {
-  background: rgb(139, 94, 73);
+  color: white;
   padding: 20px;
   text-align: center;
   list-style-type: none;}
