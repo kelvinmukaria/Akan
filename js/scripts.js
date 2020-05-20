@@ -18,7 +18,7 @@ var calculate = function(){
 
 var checkgender = function() {
 
-    var gdr = document.getElementsByName("kevz"); 
+    var gdr = document.getElementsByName("kevz"); uo
     if(gdr[0].checked === true){
         gender = "male";
     }else if(gdr[1].checked === true ){
