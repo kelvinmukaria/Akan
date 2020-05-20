@@ -35,7 +35,7 @@
              <hr class="my-4"> 
              <img src="images (2).jpeg" alt="image of african sunset" class="rounded-circle" height="120">
              <p class="two">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
-             <p class="two">Male
+             <p class="two" id="five">Male
               <ul class="one">
                 <li>Sunday: Kwasi</li>
                 <li>Monday: Kwadwo</li>
@@ -46,7 +46,7 @@
                 <li> Saturday: Kwame</li>
               </ul>        
              </p> 
-             <p class="two">Female
+             <p class="two" id="five">Female
               <ul class="one">
                 <li>Sunday: Akosua</li>
                 <li>Monday: Adwoa</li>
@@ -65,10 +65,6 @@
               <form>
                 <h4><strong>Enter your details here</strong></h4>
               <div class="form-group top-form">
-                <label for="century" class="labels">Century</label>
-                <input type="number" class="form-control" style="width: 300px;" placeholder="Enter the century" id="century" required  min="0" max="30">
-              </div>
-              <div class="form-group">
                 <label for="year" class="labels">Year</label>
                 <input type="number" placeholder="Enter the year" style="width: 300px;" class="form-control" id="year" required min="0" max="100">
               </div>
@@ -89,11 +85,9 @@
             </div>
           </form>
             <div>
-                <button type="submit" name="btn"  style="width: 300px;" class="btn btn primary" onclick="result()" id="three">Find Akan Name</button>    
+                <button type="submit" name="btn"  style="width: 300px;" class="btn btn primary" onclick="getAkanNames()" id="three">Find Akan Name</button>    
             </div>
-            <div class="row output"> 
-              <p id="result"></p>
-          </div>
+
       
     </div>
   </div>
