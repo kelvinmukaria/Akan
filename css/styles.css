@@ -32,7 +32,9 @@ one{
 ul {
   background: rgb(139, 94, 73);
   padding: 20px;
-  text-align: center;}
+  text-align: center;
+  list-style-type: none;}
+ 
 .row{
   background-color: sienna;
 }
@@ -57,4 +59,7 @@ ul {
   justify-content: space-between;
   width: 100%;
   max-width: 1024px;
+}
+ul{
+  color: beige;
 }
