@@ -49,3 +49,9 @@ ul {
 .five{
   margin: auto;
 }
+#six{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1024px;
+}

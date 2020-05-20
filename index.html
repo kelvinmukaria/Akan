@@ -16,7 +16,7 @@
             </button>
           </div>
           <div class="collapse navbar-collapse" id="theNav">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" id="six">
               <li class="nav-item"><a href="#">Home</a></li>
               <li><a href="#">Get Your Name</a></li>
               <li><a href="#">Ask a question</a></li>
@@ -63,6 +63,7 @@
     <div class="five">
     <div class="col-md-6" id="">
               <form>
+                <h4><strong>Enter your details here</strong></h4>
               <div class="form-group top-form">
                 <label for="century" class="labels">Century</label>
                 <input type="number" class="form-control" style="width: 300px;" placeholder="Enter the century" id="century" required  min="0" max="30">
@@ -88,7 +89,7 @@
             </div>
           </form>
             <div>
-                <button type="button" name="button"  style="width: 300px;" class="btn btn primary mb-2" onclick="result()" id="three">Find Akan Name</button>    
+                <button type="submit" name="btn"  style="width: 300px;" class="btn btn primary" onclick="result()" id="three">Find Akan Name</button>    
             </div>
             <div class="row output"> 
               <p id="result"></p>
